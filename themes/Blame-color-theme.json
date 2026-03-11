@@ -8,7 +8,7 @@
 		"activityBar.background": "#1B1B1C",
 		"activityBarBadge.background": "#262626",
 		"statusBar.background": "#262626",
-		"titleBar.activeBackground": "#000000",
+		"titleBar.activeBackground": "#232323",
 		"gitDecoration.addedResourceForeground": "#70e000",
 		"gitDecoration.modifiedResourceForeground": "#ffd60a",
 		"gitDecoration.deletedResourceForeground": "#e5383b",
