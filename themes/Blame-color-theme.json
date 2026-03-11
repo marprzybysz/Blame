@@ -1,10 +1,22 @@
 {
 	"name": "Blame",
 	"colors": {
-		"editor.background": "#1e1e1e",
+		"editor.background": "#181818",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#222222",
+		"activityBar.background": "#1B1B1C",
+		"activityBarBadge.background": "#262626",
+		"statusBar.background": "#262626",
+		"titleBar.activeBackground": "#000000",
+		"gitDecoration.addedResourceForeground": "#70e000",
+		"gitDecoration.modifiedResourceForeground": "#ffd60a",
+		"gitDecoration.deletedResourceForeground": "#e5383b",
+		"gitDecoration.renamedResourceForeground": "#4895ef",
+		"gitDecoration.ignoredResourceForeground": "#495057",
+		"gitDecoration.conflictingResourceForeground": "#6e44ff",
+		"terminal.background": "#000000",
+
 	},
 	"tokenColors": [
 		{
