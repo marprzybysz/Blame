@@ -1,16 +1,43 @@
-# blame README
+# Blame Theme
 
-## Working with Markdown
+Blame is a modified and improved Visual Studio Code theme.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Its interface styling was inspired by the GPT interface theme and GitHub, combining a dark, focused workspace with high-contrast syntax colors for long coding sessions.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Highlights
 
-## For more information
+- Modified and refined color palette based on modern developer UI patterns
+- Dark editor background with clear foreground contrast
+- Strong Git decoration colors for added, modified, deleted, and renamed files
+- Rich token styling for common languages and Markdown
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Inspiration
 
-**Enjoy!**
+This theme is inspired by:
+
+- The GPT interface theme and overall product UI aesthetics
+- GitHub's clean and developer-first visual language
+
+## Installation (Marketplace)
+
+1. Install the extension from the VS Code Marketplace.
+2. Open `Preferences: Color Theme` in VS Code.
+3. Select `Blame`.
+
+## Local Installation (VSIX)
+
+1. Open the project folder in a terminal.
+2. Run `npx @vscode/vsce package` to generate a `.vsix` file.
+3. In VS Code, run `Extensions: Install from VSIX...`.
+4. Select the generated `.vsix` file.
+5. Open `Preferences: Color Theme` and choose `Blame`.
+
+## Local Development (without packaging)
+
+1. Open this repository in VS Code.
+2. Press `F5` to start an `Extension Development Host` window.
+3. In that window, open `Preferences: Color Theme` and select `Blame`.
+
+## Feedback
+
+If you find readability issues or want new color adjustments, open an issue or share feedback in the repository.
