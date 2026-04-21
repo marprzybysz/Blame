@@ -1,18 +1,39 @@
 {
 	"name": "Blame",
+	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
+		"foreground": "#eeffff",
+		"descriptionForeground": "#bbbbbb",
+		"icon.foreground": "#bbbbbb",
+		"focusBorder": "#4895ef",
+		"selection.background": "#262626",
+		"errorForeground": "#e5383b",
 		"editor.background": "#080808",
 		"editor.foreground": "#eeffff",
 		"editorGroupHeader.tabsBackground": "#0c0c0c",
+		"editorCursor.foreground": "#eeffff",
+		"editorLineNumber.foreground": "#495057",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#030303",
+		"sideBar.foreground": "#bbbbbb",
+		"sideBar.border": "#495057",
+		"sideBarSectionHeader.border": "#495057",
 		"activityBar.background": "#1B1B1C",
+		"activityBar.foreground": "#bbbbbb",
 		"activityBarBadge.background": "#262626",
+		"activityBarBadge.foreground": "#eeffff",
 		"statusBar.background": "#0f0f0f",
+		"statusBar.foreground": "#bbbbbb",
 		"statusBar.debuggingBackground": "#faa916",
 		"statusBar.debuggingBorder": "#faa916",
 		"statusBar.debuggingForeground": "#000000",
 		"titleBar.activeBackground": "#0a0a0a",
+		"titleBar.activeForeground": "#bbbbbb",
+		"titleBar.border": "#495057",
+		"badge.background": "#262626",
+		"badge.foreground": "#eeffff",
+		"progressBar.background": "#4895ef",
 		"gitDecoration.addedResourceForeground": "#70e000",
 		"gitDecoration.modifiedResourceForeground": "#ffd60a",
 		"gitDecoration.deletedResourceForeground": "#e5383b",
@@ -20,7 +41,10 @@
 		"gitDecoration.ignoredResourceForeground": "#495057",
 		"gitDecoration.conflictingResourceForeground": "#6e44ff",
 		"terminal.background": "#000000",
-
+		"list.activeSelectionBackground": "#262626",
+		"list.activeSelectionForeground": "#eeffff",
+		"list.inactiveSelectionBackground": "#1B1B1C",
+		"list.hoverBackground": "#141414"
 	},
 	"tokenColors": [
 		{
@@ -640,5 +664,6 @@
 				"foreground": "#EEFFFF"
 			}
 		}
-	]
+	],
+	"semanticTokenColors": {}
 }
